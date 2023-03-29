@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Icon Maker and Changer for iOS">
+    <meta name="description" content="Customizer of Home Screen Theme">
+    <title>Icon Maker and Changer</title>
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script>
+        function downloadProfile() {
+            document.getElementById('profile-downloader-iframe').src = location.search.split('=')[1].split('&')[0];
+        }
+    </script>
+</head>
+<body>
+    <div id="content-container">
+        <a href="https://apps.apple.com/app/id1662361696"><img class="explicitly-sized-image app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/7b/3a/b0/7b3ab059-8cc7-9efe-e3ca-923e805e55b7/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/492x0w.png" alt="Icon Maker App Icon" width="96" height="96"></a>
+        <h2 class="v-margin-16">Icon Maker for Shortcuts</h2>
+        <div class="fullwidth-container v-margin-32">
+            <p>Before we begin, please allow the installation of the profile to continue.</p>
+            <img class="explicitly-sized-image v-margin-16" src="assets/allow-installation.png" alt="Allow profile installation" width="312" height="125">
+        </div>
+        <h3 class="v-margin-32">Change app icons in three easy steps:</h3>
+        <div class="fullwidth-container v-margin-32">
+            <h4>Step 1</h4>
+            <p class="v-margin-8">Close the alert and open the Settings app.</p>
+            <img class="explicitly-sized-image v-margin-32" src="assets/profile-downloaded-alert.png" alt="Close profile downloaded alert" width="212" height="122">
+        </div>
+        <div class="fullwidth-container v-margin-32">
+            <h4>Step 2</h4>
+            <p class="v-margin-8">Tap on Profile Downloaded.</p>
+            <img class="explicitly-sized-image v-margin-32" src="assets/profile-downloaded.png" alt="Tap on Profile Downloaded" width="216" height="54">
+        </div>
+        <div class="fullwidth-container v-margin-32">
+            <h4>Step 3</h4>
+            <p class="v-margin-8">Tap Install.</p>
+            <img class="explicitly-sized-image v-margin-32" src="assets/install-profile.png" alt="Install Profile" width="280" height="270">
+        </div>
+        <h4>Congratulations!</h4>
+        <p class="v-margin-8">Enjoy the fresh new look of your iPhone Home Screen 📱</p>
+        <button class="rounded-button v-margin-32" onclick="downloadProfile()">Download Profile Again</button>
+        <iframe id="profile-downloader-iframe" style="display:none;"></iframe>
+        <script>downloadProfile();</script>
+    </div>
+</body>
+</html>

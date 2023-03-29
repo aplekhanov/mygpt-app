@@ -1,0 +1,7 @@
+* {
+    --primary-background-color: rgba(240, 240, 240, 1.0);
+    --secondary-background-color: #f8f8f8;
+
+    --primary-text-color: rgba(0, 0, 0, 1.0);
+    --secondary-text-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+/* This contanier is used to center content on desktop and fit content on mobile devices */
+#content-container {
+    display: block;
+    width: 600px;
+    overflow-y: auto;
+    margin: auto;
+    padding: 32px 16px 32px 16px;
+    box-sizing: border-box;
+}
+
+/* This container is used to separate content into its own container */
+/* Takes all available width */
+.fullwidth-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    overflow-y: auto;
+}
+
+/* This image class is used to display an image that takes all available page width */
+.fullwidth-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    user-select: none;
+}
+
+/* This image class is used to display explicitly sized image */
+/* Example usage: <img class="explicitly-sized-image" style="width:100px;height: 200px"></img> */
+.explicitly-sized-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+
+/* This is a regular rounded button */
+.rounded-button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--accent-color);
+    border-radius: 14px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #007aff;
+}
+
+.rounded-button:focus {
+    outline: none;
+}
+
+/* This class is used to add 8px vertical margins to an object */
+.v-margin-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* This class is used to add 16px vertical margins to an object */
+.v-margin-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* This class is used to add 32px vertical margins to an object */
+.v-margin-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* adaptive sizing */
+
+@media screen and (max-width: 600px) {
+    #content-container {
+        /* make `content-container` take all available width on mobile devices */
+        width: 100%;
+    }
+}
+
+.app-icon {
+    border-radius: 24px;
+}
