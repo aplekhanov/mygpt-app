@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**  
-March 29 2023
+March 30 2023
 
 # Privacy Policy
 I take your privacy very seriously. I neither want nor need to know anything about your personal data. To that end I’ve designed the app from the ground up to ensure that your data stays completely private.
@@ -34,4 +34,4 @@ You hereby indemnify us and undertake to keep us indemnified against any losses,
 
 Your continued use of the app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about it, feel free to contact me by mail@aplekhanov.com
 
-This policy is effective as of 29 March 2023.
+This policy is effective as of 30 March 2023.
