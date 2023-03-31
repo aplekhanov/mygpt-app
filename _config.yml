@@ -27,6 +27,20 @@ twitter_username                          :
 github_username                           : aplekhanov
 youtube_username                          :
 
+# Feature List 
+features                                  :
+
+  - title                                 : Speedy API Responses
+    description                           : Enjoy fast and accurate responses powered by the API
+    fontawesome_icon_name                 : bolt
+
+  - title                                 : One-Tap Copy
+    description                           : Effortlessly copy message text with a single tap
+    fontawesome_icon_name                 : clone
+      
+  - title                                 : Instant Reset
+    description                           : Reset the chat instantly for a fresh start whenever needed
+    fontawesome_icon_name                 : sync
 
 
 # Theme Settings
